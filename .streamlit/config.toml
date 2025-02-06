@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#007bff"  # Deep Blue
+accentColor = "#ff9800"   # Amber
+backgroundColor = "#f8f9fa"  # Very Light Gray
+secondaryBackgroundColor = "#ffffff"
+textColor = "#343a40"  # Dark Gray
