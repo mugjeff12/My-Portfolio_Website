@@ -109,14 +109,14 @@ df = pandas.read_csv('data.csv', sep=';')
 
 # Projects displayed in columns
 with col1:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:11].iterrows():
         st.header(row['title'])
         st.write(row['description'])
         st.image('images/' + row['image'], use_container_width=True)
         st.write(f"[Source Code]({row['url']})")
 
 with col2:
-    for index, row in df[10:].iterrows():
+    for index, row in df[11:].iterrows():
         st.header(row['title'])
         st.write(row['description'])
         st.image('images/' + row['image'], use_container_width=True)
